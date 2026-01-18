@@ -1,0 +1,6 @@
+/* Memory layout for STM32H747XI - Cortex-M7 core */
+MEMORY
+{
+  FLASH : ORIGIN = 0x08000000, LENGTH = 1M
+  RAM   : ORIGIN = 0x24000000, LENGTH = 512K
+}
